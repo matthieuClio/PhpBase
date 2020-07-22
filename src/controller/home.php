@@ -22,14 +22,14 @@
 	    public function display()
 	    {
 	    	// Load the view
-	    	require('../src/view/front/accueil_view.php');
+	    	require('../src/view/front/home_view.php');
 	    }
 
 	} // End class Home
 
 
 	// Object
-	$objectHome = new BackofficeAccueil();
+	$objectHome = new Home();
 
 	// Operation
 	$objectHome->display();
