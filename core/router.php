@@ -13,6 +13,14 @@
 		require('../src/controller/home.php');
 	}
 
+	// Exemple other page
+	/*
+	else if ($url[0] === 'exemple')
+	{
+		rrequire('../src/controller/home.php');
+	}
+	*/
+	
 	// Error page
 	else 
 	{

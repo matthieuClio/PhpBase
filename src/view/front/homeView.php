@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<?php include'header/header_view.php'; ?>
+		<?php include'header/headerView.php'; ?>
 	</head>
 
 	<body>
 		<header>
 			<!-- Menu -->
-			<?php include'menu/menu_view.php'; ?>
+			<?php include'menu/menuView.php'; ?>
 		</header>
 
 		<section>
@@ -24,7 +24,7 @@
 		</main>
 
 		<!-- Footer -->
-		<?php include'footer/footer_view.php'; ?>
+		<?php include'footer/footerView.php'; ?>
 	</body>
 
 </html>
