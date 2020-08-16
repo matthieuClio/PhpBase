@@ -10,16 +10,23 @@
 	// Home page
 	if ($url == '')
 	{
-		require('../src/controller/home.php');
+		require('../src/controller/front/home.php');
 	}
 
-	// Exemple other page
-	/*
-	else if ($url[0] === 'exemple')
-	{
-		rrequire('../src/controller/home.php');
-	}
-	*/
+	// LOGIN BACKOFFICE - SET A DEFAULT BACKOFFICE
+	// ................
+
+	// Backoffice page
+	// else if ($url[0] === 'backoffice' && !empty($_SESSION['pseudoUser']) || $url[0] === 'backoffice' && !empty($_POST['submitConnexion']))
+	// {
+	// 	require('../src/controller/back/Backoffice.php');
+	// }
+
+	// Backoffice connexion page
+	// else if ($url[0] === 'backoffice' && empty($_SESSION['pseudoUser']))
+	// {
+	// 	require('../src/controller/back/BackofficeConnexion.php');
+	// }
 	
 	// Error page
 	else 

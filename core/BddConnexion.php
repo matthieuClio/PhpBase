@@ -1,5 +1,5 @@
 <?php
-	class Bdd_connexion
+	class BddConnexion
 	{
 
 		// Set the connection parameters
@@ -24,7 +24,7 @@
 			
 			try
 			{
-				$base = new PDO('mysql:host='.$host.';dbname='.$dbname,'root',$password);
+				$base = new PDO('mysql:host='.$host.';dbname='.$dbname, $login, $password);
 			}
 			catch (Exception $e)
 			{

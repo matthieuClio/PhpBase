@@ -1,0 +1,18 @@
+/* Backoffice par défaut déjà intégré */
+
+Pour l'utiliser, intégrer le fichier SQL contenant la table compte.
+- Aller dans : src/model
+- Vous devriez trouver le fichier compte.sql
+
+Ensuite changer les log de connexion de la BDD.
+- Aller dans core/BddConnexion.php
+- Changer : $host, $dbname, $login, $password avec votre accès à votre base de donnée.
+
+Puis enlever les commentaires du fichier de routing et du fichier CSS
+- Aller dans : core/router.php
+- Enlever les double // pour Backoffice page et Backoffice connexion page.
+- Aller dans public/css/style.css
+- Enlever les commentaires (enlever le /* */) de tous ce qui se trouve en desous de /* LOG BACKOFFICE - SET A DEFAULT BACKOFFICE */
+à partir de la première class css (.backoffice-connexion-background).
+
+Le backoffice est prêt ;)
