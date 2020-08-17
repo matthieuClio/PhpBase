@@ -102,7 +102,7 @@
 	} // End class Backoffice
 
 
-	// Object BackofficeBillet
+	// Object Backoffice
 	$objectBackoffice = new Backoffice();
 
 	// Disconnection
